@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C19F59B1F50C26F00B85428 /* CiscoMxSxSeriesCodecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19F59A1F50C26F00B85428 /* CiscoMxSxSeriesCodecs.swift */; };
+		3C19F59D1F50C55300B85428 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19F59C1F50C55300B85428 /* TCPClient.swift */; };
+		3C19F5A01F60217400B85428 /* Settings View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19F59F1F60217400B85428 /* Settings View Controller.swift */; };
+		3C19F5A21F607B3500B85428 /* Dial View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19F5A11F607B3500B85428 /* Dial View Controller.swift */; };
+		3C19F5A51F60811600B85428 /* Camera View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19F5A41F60811600B85428 /* Camera View Controller.swift */; };
+		3C19F5A71F612E2500B85428 /* Present View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19F5A61F612E2500B85428 /* Present View Controller.swift */; };
+		3C19F5A91F62C93D00B85428 /* History View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19F5A81F62C93D00B85428 /* History View Controller.swift */; };
+		3C482A231F4DB27F00380948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C482A221F4DB27F00380948 /* AppDelegate.swift */; };
+		3C482A251F4DB27F00380948 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C482A241F4DB27F00380948 /* HomeViewController.swift */; };
+		3C482A281F4DB27F00380948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C482A261F4DB27F00380948 /* Main.storyboard */; };
+		3C482A2A1F4DB27F00380948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C482A291F4DB27F00380948 /* Assets.xcassets */; };
+		3C482A2D1F4DB27F00380948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C482A2B1F4DB27F00380948 /* LaunchScreen.storyboard */; };
+		3C482A351F50613000380948 /* Global Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C482A341F50613000380948 /* Global Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C19F59A1F50C26F00B85428 /* CiscoMxSxSeriesCodecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CiscoMxSxSeriesCodecs.swift; path = "Room Control App/CiscoMxSxSeriesCodecs.swift"; sourceTree = "<group>"; };
+		3C19F59C1F50C55300B85428 /* TCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = ../TCPClient.swift; sourceTree = "<group>"; };
+		3C19F59F1F60217400B85428 /* Settings View Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Settings View Controller.swift"; sourceTree = "<group>"; };
+		3C19F5A11F607B3500B85428 /* Dial View Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dial View Controller.swift"; sourceTree = "<group>"; };
+		3C19F5A41F60811600B85428 /* Camera View Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Camera View Controller.swift"; sourceTree = "<group>"; };
+		3C19F5A61F612E2500B85428 /* Present View Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Present View Controller.swift"; sourceTree = "<group>"; };
+		3C19F5A81F62C93D00B85428 /* History View Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "History View Controller.swift"; sourceTree = "<group>"; };
+		3C482A1F1F4DB27F00380948 /* Room Control App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Room Control App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C482A221F4DB27F00380948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C482A241F4DB27F00380948 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "Room Control App/HomeViewController.swift"; sourceTree = "<group>"; };
+		3C482A271F4DB27F00380948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C482A291F4DB27F00380948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C482A2C1F4DB27F00380948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C482A2E1F4DB27F00380948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C482A341F50613000380948 /* Global Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Global Settings.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C482A1C1F4DB27F00380948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C19F59E1F50D20600B85428 /* Device Drivers */ = {
+			isa = PBXGroup;
+			children = (
+				3C19F59A1F50C26F00B85428 /* CiscoMxSxSeriesCodecs.swift */,
+			);
+			name = "Device Drivers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3C19F5A31F607E4A00B85428 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C19F5A81F62C93D00B85428 /* History View Controller.swift */,
+				3C19F5A61F612E2500B85428 /* Present View Controller.swift */,
+				3C19F5A41F60811600B85428 /* Camera View Controller.swift */,
+				3C482A241F4DB27F00380948 /* HomeViewController.swift */,
+				3C19F59F1F60217400B85428 /* Settings View Controller.swift */,
+				3C19F5A11F607B3500B85428 /* Dial View Controller.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3C482A161F4DB27F00380948 = {
+			isa = PBXGroup;
+			children = (
+				3C19F5A31F607E4A00B85428 /* Views */,
+				3C482A211F4DB27F00380948 /* Room Control App */,
+				3C482A201F4DB27F00380948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C482A201F4DB27F00380948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C482A1F1F4DB27F00380948 /* Room Control App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C482A211F4DB27F00380948 /* Room Control App */ = {
+			isa = PBXGroup;
+			children = (
+				3C482A2B1F4DB27F00380948 /* LaunchScreen.storyboard */,
+				3C482A261F4DB27F00380948 /* Main.storyboard */,
+				3C482A221F4DB27F00380948 /* AppDelegate.swift */,
+				3C482A341F50613000380948 /* Global Settings.swift */,
+				3C19F59C1F50C55300B85428 /* TCPClient.swift */,
+				3C19F59E1F50D20600B85428 /* Device Drivers */,
+				3C482A291F4DB27F00380948 /* Assets.xcassets */,
+				3C482A2E1F4DB27F00380948 /* Info.plist */,
+			);
+			path = "Room Control App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C482A1E1F4DB27F00380948 /* Room Control App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C482A311F4DB27F00380948 /* Build configuration list for PBXNativeTarget "Room Control App" */;
+			buildPhases = (
+				3C482A1B1F4DB27F00380948 /* Sources */,
+				3C482A1C1F4DB27F00380948 /* Frameworks */,
+				3C482A1D1F4DB27F00380948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Room Control App";
+			productName = "Room Control App";
+			productReference = 3C482A1F1F4DB27F00380948 /* Room Control App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C482A171F4DB27F00380948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Vega;
+				TargetAttributes = {
+					3C482A1E1F4DB27F00380948 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RU74GTFE8M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C482A1A1F4DB27F00380948 /* Build configuration list for PBXProject "Room Control App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C482A161F4DB27F00380948;
+			productRefGroup = 3C482A201F4DB27F00380948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C482A1E1F4DB27F00380948 /* Room Control App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C482A1D1F4DB27F00380948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C482A2D1F4DB27F00380948 /* LaunchScreen.storyboard in Resources */,
+				3C482A2A1F4DB27F00380948 /* Assets.xcassets in Resources */,
+				3C482A281F4DB27F00380948 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C482A1B1F4DB27F00380948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C482A251F4DB27F00380948 /* HomeViewController.swift in Sources */,
+				3C19F59D1F50C55300B85428 /* TCPClient.swift in Sources */,
+				3C19F5A71F612E2500B85428 /* Present View Controller.swift in Sources */,
+				3C482A351F50613000380948 /* Global Settings.swift in Sources */,
+				3C482A231F4DB27F00380948 /* AppDelegate.swift in Sources */,
+				3C19F5A91F62C93D00B85428 /* History View Controller.swift in Sources */,
+				3C19F59B1F50C26F00B85428 /* CiscoMxSxSeriesCodecs.swift in Sources */,
+				3C19F5A01F60217400B85428 /* Settings View Controller.swift in Sources */,
+				3C19F5A21F607B3500B85428 /* Dial View Controller.swift in Sources */,
+				3C19F5A51F60811600B85428 /* Camera View Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C482A261F4DB27F00380948 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C482A271F4DB27F00380948 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C482A2B1F4DB27F00380948 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C482A2C1F4DB27F00380948 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C482A2F1F4DB27F00380948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C482A301F4DB27F00380948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C482A321F4DB27F00380948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RU74GTFE8M;
+				INFOPLIST_FILE = "Room Control App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vega-global.Room-Control-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C482A331F4DB27F00380948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RU74GTFE8M;
+				INFOPLIST_FILE = "Room Control App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vega-global.Room-Control-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C482A1A1F4DB27F00380948 /* Build configuration list for PBXProject "Room Control App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C482A2F1F4DB27F00380948 /* Debug */,
+				3C482A301F4DB27F00380948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C482A311F4DB27F00380948 /* Build configuration list for PBXNativeTarget "Room Control App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C482A321F4DB27F00380948 /* Debug */,
+				3C482A331F4DB27F00380948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C482A171F4DB27F00380948 /* Project object */;
+}
